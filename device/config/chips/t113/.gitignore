@@ -9,14 +9,4 @@
 #
 # Normal rules
 #
-/bin/*.bin
-!/bin/bl31.bin
-!/bin/optee*.bin
-!/bin/ft*.bin
-*.dtbo
-/configs/*/board.dts
-/configs/*/linux
-configs/*/arisc.config
-*.patch
-*.diff
 *.swp
