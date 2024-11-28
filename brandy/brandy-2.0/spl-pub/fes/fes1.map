@@ -1,0 +1,965 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+                              /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a (__aeabi_uidiv)
+/home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+                              /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a (__aeabi_idiv)
+/home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+                              /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a (__aeabi_fsub)
+/home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+                              /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a (__aeabi_fmul)
+/home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+                              /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a (__aeabi_f2iz)
+/home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+                              /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .text.timer_get_us
+                0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.__msdelay
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.timer_init
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sdelay   0x0000000000000000        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.timer_exit
+                0x0000000000000000        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.enable_smp
+                0x0000000000000000        0xe /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.mmu_enable
+                0x0000000000000000       0x8c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.mmu_disable
+                0x0000000000000000       0x30 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.neon_enable
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.invalidate_dcache_range
+                0x0000000000000000        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.flush_dcache_range
+                0x0000000000000000        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.__jump_kernel
+                0x0000000000000000       0x5c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.boot0_jmp_optee
+                0x0000000000000000        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.boot0_jmp_monitor
+                0x0000000000000000        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.boot0_jmp_opensbi
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.boot0_jump_kernel
+                0x0000000000000000        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.optee_jump_kernel
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_board_late_init
+                0x0000000000000000       0x16 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_assert_arisc
+                0x0000000000000000       0x34 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_deassert_arisc
+                0x0000000000000000       0x34 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_board_exit
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_board_clock_reset
+                0x0000000000000000       0x40 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_clock_init_key
+                0x0000000000000000       0x3c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_clock_exit_key
+                0x0000000000000000       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strcpy   0x0000000000000000       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strncpy  0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strcat   0x0000000000000000       0x1e /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strncat  0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strcmp   0x0000000000000000       0x16 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strchr   0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strrchr  0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strnlen  0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strspn   0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.memcmp   0x0000000000000000       0x1e /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.memmove  0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.memscan  0x0000000000000000       0x16 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.strstr   0x0000000000000000       0x40 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.memchr   0x0000000000000000       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.simple_strtoul
+                0x0000000000000000       0x84 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.vprintf  0x0000000000000000       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_set_printf_debug_mode
+                0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_get_printf_debug_mode
+                0x0000000000000000        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_get_debug_mode_for_uboot
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.pr_emerg
+                0x0000000000000000       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.puts     0x0000000000000000        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.snprintf
+                0x0000000000000000       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.print_sys_tick
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.verify_addsum
+                0x0000000000000000       0x60 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.verify_addsum_for_kernel
+                0x0000000000000000       0x60 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.g_mod    0x0000000000000000       0x22 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_page_buf
+                0x0000000000000000        0x8 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_uart_input
+                0x0000000000000000       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.set_uboot_func_mask
+                0x0000000000000000       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_uboot_func_mask
+                0x0000000000000000        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_board_init_early
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.malloc_init
+                0x0000000000000000       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.malloc   0x0000000000000000       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.realloc  0x0000000000000000       0x6c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.free     0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_get_lw32_addr
+                0x0000000000000000        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.u8_to_string_hex
+                0x0000000000000000       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.ndump    0x0000000000000000       0x6c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.__assert_fail
+                0x0000000000000000       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.exist_uboot_jmp_cardproduct
+                0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.android_image_get_ramdisk
+                0x0000000000000000       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_mem_info
+                0x0000000000000000       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.load_bimage
+                0x0000000000000000      0x12c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.load_uimage
+                0x0000000000000000       0x40 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_switch_rootfs
+                0x0000000000000000      0x12c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_switch_flag
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_switch_kernel_flag
+                0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_switch_rootfs_flag
+                0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_update_fdt_para_for_kernel
+                0x0000000000000000       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.fdt_enable_node
+                0x0000000000000000       0x3c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_serial_getc
+                0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_serial_tstc
+                0x0000000000000000       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_gpio_set_cfgbank
+                0x0000000000000000       0x22 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_gpio_set_cfgpin
+                0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_gpio_get_cfgbank
+                0x0000000000000000       0x1a /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_gpio_get_cfgpin
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_gpio_set_drv
+                0x0000000000000000       0x48 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_gpio_set_pull
+                0x0000000000000000       0x48 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.rtc_clear_data
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.rtc_set_data
+                0x0000000000000000       0x1e /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.rtc_set_fel_flag
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.rtc_set_hash_entry
+                0x0000000000000000       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.spi_mem_exec_op
+                0x0000000000000000       0xe0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp_i2c_write
+                0x0000000000000000       0x16 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp_i2c_read
+                0x0000000000000000       0x12 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.i2c_exit
+                0x0000000000000000       0xc4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.pmic_bus_setbits
+                0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.pmic_bus_clrbits
+                0x0000000000000000       0x2a /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.super_standby_mode
+                0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_boot_dram_training_enable_flag
+                0x0000000000000000        0x8 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_boot_dram_update_flag
+                0x0000000000000000        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.dram_udelay
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.paraconfig
+                0x0000000000000000        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.bit_delay_compensation
+                0x0000000000000000       0x78 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.set_master_priority_pad
+                0x0000000000000000       0xb0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.ccm_get_sscg
+                0x0000000000000000       0x84 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.ccm_set_pll_sscg
+                0x0000000000000000       0x64 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.mctl_init
+                0x0000000000000000       0x94 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.get_power_source
+                0x0000000000000000        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.set_power_reset
+                0x0000000000000000        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.probe_power_key
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.set_ddr4_2v5_voltage
+                0x0000000000000000        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.set_sys_voltage_ext
+                0x0000000000000000        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.set_efuse_voltage
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp_reg_read
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp_reg_write
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp1530_probe_power_key
+                0x0000000000000000       0x40 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp1530_set_efuse_voltage
+                0x0000000000000000       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp1530_reg_read
+                0x0000000000000000        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.axp1530_reg_write
+                0x0000000000000000        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sid_sram_read
+                0x0000000000000000       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sid_read_rotpk
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sid_set_security_mode
+                0x0000000000000000       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sid_disable_jtag
+                0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sid_probe_security_mode
+                0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_disable_sd_boot
+                0x0000000000000000       0x40 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_flashmap_bootparam_start
+                0x0000000000000000       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_flashmap_toc1_start
+                0x0000000000000000       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_flashmap_toc1_bak_start
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text.sunxi_flashmap_info_dump
+                0x0000000000000000        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .text          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .text          0x0000000000000000      0x21c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x0000000000000000      0x1a2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_info    0x0000000000000000      0x1cc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000000000       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1f /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_addsubsf3.o)
+ .text          0x0000000000000000      0x2a0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x0000000000000000      0x1c5 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x0000000000000000      0x1cc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x0000000000000000       0x38 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1f /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_muldivsf3.o)
+ .text          0x0000000000000000       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_line    0x0000000000000000      0x102 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_info    0x0000000000000000      0x1cc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_abbrev  0x0000000000000000       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .debug_frame   0x0000000000000000       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1f /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_arm_fixsfsi.o)
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .text          0x0000000000000000        0x0 main/fes1_head.o
+ .data          0x0000000000000000        0x0 main/fes1_head.o
+ .bss           0x0000000000000000        0x0 main/fes1_head.o
+ .data          0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+ .bss           0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+LOAD /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+LOAD /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a
+                0x0000000000028000                . = 0x28000
+                0x0000000000028000                . = ALIGN (0x4)
+
+.head           0x0000000000028000      0x3c8
+ main/fes1_head.o(.rodata)
+ .rodata        0x0000000000028000      0x3c8 main/fes1_head.o
+                0x0000000000028000                fes1_head
+
+.text           0x00000000000283c8      0xb0c
+ /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o(.text)
+ .text          0x00000000000283c8       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+                0x00000000000283c8                _start
+ *(.text)
+ .text          0x0000000000028414      0x58c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028414                __v7_flush_dcache_all
+                0x00000000000284b0                v7_flush_dcache_all
+                0x00000000000284dc                memset0
+                0x0000000000028594                memcpy0
+                0x0000000000028944                crc_16
+                0x0000000000028968                disturb_coding
+                0x000000000002897a                id_judge_fun
+ .text          0x00000000000289a0      0x278 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+                0x00000000000289a0                __udivsi3
+                0x00000000000289a0                __aeabi_uidiv
+                0x0000000000028bfc                __aeabi_uidivmod
+ .text          0x0000000000028c18      0x2b0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+                0x0000000000028c18                __aeabi_idiv
+                0x0000000000028c18                __divsi3
+                0x0000000000028eac                __aeabi_idivmod
+ .text          0x0000000000028ec8        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+                0x0000000000028ec8                __aeabi_ldiv0
+                0x0000000000028ec8                __aeabi_idiv0
+
+.glue_7         0x0000000000028ed4        0x0
+ .glue_7        0x0000000000028ed4        0x0 linker stubs
+
+.glue_7t        0x0000000000028ed4        0x0
+ .glue_7t       0x0000000000028ed4        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000028ed4        0x0
+ .vfp11_veneer  0x0000000000028ed4        0x0 linker stubs
+
+.v4_bx          0x0000000000028ed4        0x0
+ .v4_bx         0x0000000000028ed4        0x0 linker stubs
+
+.text.get_sys_ticks
+                0x0000000000028ed4       0x14
+ .text.get_sys_ticks
+                0x0000000000028ed4       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028ed4                get_sys_ticks
+
+.text.udelay    0x0000000000028ee8       0x24
+ .text.udelay   0x0000000000028ee8       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028ee8                udelay
+
+.text.mdelay    0x0000000000028f0c        0xa
+ .text.mdelay   0x0000000000028f0c        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028f0c                mdelay
+
+.text.__usdelay
+                0x0000000000028f16        0x4
+ .text.__usdelay
+                0x0000000000028f16        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028f16                __usdelay
+
+.text.data_sync_barrier
+                0x0000000000028f1a        0xa
+ .text.data_sync_barrier
+                0x0000000000028f1a        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028f1a                data_sync_barrier
+
+.text.boot0_jmp
+                0x0000000000028f24        0xc
+ .text.boot0_jmp
+                0x0000000000028f24        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028f24                boot0_jmp
+
+.text.sunxi_board_init
+                0x0000000000028f30       0x44
+ .text.sunxi_board_init
+                0x0000000000028f30       0x44 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028f30                sunxi_board_init
+
+.text.set_aldo_analog
+                0x0000000000028f74       0x2c
+ .text.set_aldo_analog
+                0x0000000000028f74       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028f74                set_aldo_analog
+
+.text.set_ldoa_analog
+                0x0000000000028fa0       0x2c
+ .text.set_ldoa_analog
+                0x0000000000028fa0       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028fa0                set_ldoa_analog
+
+.text.sunxi_board_pll_init
+                0x0000000000028fcc      0x41c
+ .text.sunxi_board_pll_init
+                0x0000000000028fcc      0x41c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000028fcc                sunxi_board_pll_init
+
+.text.sunxi_clock_init_uart
+                0x00000000000293e8       0x48
+ .text.sunxi_clock_init_uart
+                0x00000000000293e8       0x48 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x00000000000293e8                sunxi_clock_init_uart
+
+.text.strncmp   0x0000000000029430       0x22
+ .text.strncmp  0x0000000000029430       0x22 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029430                strncmp
+
+.text.strlen    0x0000000000029452       0x10
+ .text.strlen   0x0000000000029452       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029452                strlen
+
+.text.memset    0x0000000000029464        0xc
+ .text.memset   0x0000000000029464        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029464                memset
+
+.text.memcpy    0x0000000000029470        0xc
+ .text.memcpy   0x0000000000029470        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029470                memcpy
+
+.text.putc_outstr
+                0x000000000002947c        0xa
+ .text.putc_outstr
+                0x000000000002947c        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.putc_normal
+                0x0000000000029486        0x6
+ .text.putc_normal
+                0x0000000000029486        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.div_out   0x000000000002948c       0x32
+ .text.div_out  0x000000000002948c       0x32 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text._vprintf  0x00000000000294c0      0x1e4
+ .text._vprintf
+                0x00000000000294c0      0x1e4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.sprintf   0x00000000000296a4       0x2c
+ .text.sprintf  0x00000000000296a4       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x00000000000296a4                sprintf
+
+.text.printf    0x00000000000296d0       0x48
+ .text.printf   0x00000000000296d0       0x48 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x00000000000296d0                printf
+
+.text.raise     0x0000000000029718        0x4
+ .text.raise    0x0000000000029718        0x4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029718                raise
+
+.text.sunxi_get_iobase
+                0x000000000002971c        0x2
+ .text.sunxi_get_iobase
+                0x000000000002971c        0x2 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002971c                sunxi_get_iobase
+
+.text.sunxi_serial_init
+                0x0000000000029720       0x54
+ .text.sunxi_serial_init
+                0x0000000000029720       0x54 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029720                sunxi_serial_init
+
+.text.sunxi_serial_putc
+                0x0000000000029774       0x14
+ .text.sunxi_serial_putc
+                0x0000000000029774       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029774                sunxi_serial_putc
+
+.text.boot_set_gpio
+                0x0000000000029788      0x368
+ .text.boot_set_gpio
+                0x0000000000029788      0x368 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029788                boot_set_gpio
+
+.text.rtc_write_data
+                0x0000000000029af0       0x1c
+ .text.rtc_write_data
+                0x0000000000029af0       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029af0                rtc_write_data
+
+.text.rtc_read_data
+                0x0000000000029b0c       0x18
+ .text.rtc_read_data
+                0x0000000000029b0c       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029b0c                rtc_read_data
+
+.text._rtc_clear_data
+                0x0000000000029b24       0x1c
+ .text._rtc_clear_data
+                0x0000000000029b24       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.rtc_probe_fel_flag
+                0x0000000000029b40       0x78
+ .text.rtc_probe_fel_flag
+                0x0000000000029b40       0x78 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029b40                rtc_probe_fel_flag
+
+.text.rtc_clear_fel_flag
+                0x0000000000029bb8        0x6
+ .text.rtc_clear_fel_flag
+                0x0000000000029bb8        0x6 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029bb8                rtc_clear_fel_flag
+
+.text.i2c_sendbyteaddr
+                0x0000000000029bc0       0x38
+ .text.i2c_sendbyteaddr
+                0x0000000000029bc0       0x38 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.i2c_sendstart
+                0x0000000000029bf8       0x40
+ .text.i2c_sendstart
+                0x0000000000029bf8       0x40 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.i2c_sendslaveaddr
+                0x0000000000029c38       0x4c
+ .text.i2c_sendslaveaddr
+                0x0000000000029c38       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.i2c_stop  0x0000000000029c84       0x4c
+ .text.i2c_stop
+                0x0000000000029c84       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.i2c_read  0x0000000000029cd0      0x15c
+ .text.i2c_read
+                0x0000000000029cd0      0x15c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029cd0                i2c_read
+
+.text.i2c_write
+                0x0000000000029e2c       0xb0
+ .text.i2c_write
+                0x0000000000029e2c       0xb0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029e2c                i2c_write
+
+.text.i2c_set_clock
+                0x0000000000029edc       0xdc
+ .text.i2c_set_clock
+                0x0000000000029edc       0xdc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029edc                i2c_set_clock
+
+.text.get_i2c_gpio
+                0x0000000000029fb8       0x18
+ .text.get_i2c_gpio
+                0x0000000000029fb8       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029fb8                get_i2c_gpio
+
+.text.i2c_init  0x0000000000029fd0       0xc0
+ .text.i2c_init
+                0x0000000000029fd0       0xc0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x0000000000029fd0                i2c_init
+
+.text.i2c_init_cpus
+                0x000000000002a090       0x3c
+ .text.i2c_init_cpus
+                0x000000000002a090       0x3c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a090                i2c_init_cpus
+
+.text.pmic_bus_init
+                0x000000000002a0cc        0xa
+ .text.pmic_bus_init
+                0x000000000002a0cc        0xa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a0cc                pmic_bus_init
+
+.text.pmic_bus_read
+                0x000000000002a0d6       0x14
+ .text.pmic_bus_read
+                0x000000000002a0d6       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a0d6                pmic_bus_read
+
+.text.pmic_bus_write
+                0x000000000002a0ea       0x18
+ .text.pmic_bus_write
+                0x000000000002a0ea       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a0ea                pmic_bus_write
+
+.text.handler_super_standby
+                0x000000000002a104      0x102
+ .text.handler_super_standby
+                0x000000000002a104      0x102 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a104                handler_super_standby
+
+.text.wdt_stop  0x000000000002a208       0x18
+ .text.wdt_stop
+                0x000000000002a208       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a208                wdt_stop
+
+.text.wdt_start
+                0x000000000002a220       0x34
+ .text.wdt_start
+                0x000000000002a220       0x34 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a220                wdt_start
+
+.text.set_ddr_voltage
+                0x000000000002a254       0x2c
+ .text.set_ddr_voltage
+                0x000000000002a254       0x2c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a258                set_ddr_voltage
+
+.text.get_pmu_exist
+                0x000000000002a280       0x14
+ .text.get_pmu_exist
+                0x000000000002a280       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a288                get_pmu_exist
+
+.text.memcpy_self
+                0x000000000002a294       0x18
+ .text.memcpy_self
+                0x000000000002a294       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a294                memcpy_self
+
+.text.sid_read_ldoB_cal
+                0x000000000002a2ac       0x38
+ .text.sid_read_ldoB_cal
+                0x000000000002a2ac       0x38 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a2ac                sid_read_ldoB_cal
+
+.text.dram_vol_set
+                0x000000000002a2e4       0x3c
+ .text.dram_vol_set
+                0x000000000002a2e4       0x3c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a2e4                dram_vol_set
+
+.text.dram_enable_all_master
+                0x000000000002a320       0x1c
+ .text.dram_enable_all_master
+                0x000000000002a320       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a320                dram_enable_all_master
+
+.text.dram_disable_all_master
+                0x000000000002a33c       0x1c
+ .text.dram_disable_all_master
+                0x000000000002a33c       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a33c                dram_disable_all_master
+
+.text.eye_delay_compensation
+                0x000000000002a358      0x14c
+ .text.eye_delay_compensation
+                0x000000000002a358      0x14c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a358                eye_delay_compensation
+
+.text.auto_cal_timing
+                0x000000000002a4a4       0x24
+ .text.auto_cal_timing
+                0x000000000002a4a4       0x24 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a4a4                auto_cal_timing
+
+.text.auto_set_timing_para
+                0x000000000002a4c8      0x788
+ .text.auto_set_timing_para
+                0x000000000002a4c8      0x788 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002a4c8                auto_set_timing_para
+
+.text.ccm_set_pll_ddr_clk
+                0x000000000002ac50       0x7c
+ .text.ccm_set_pll_ddr_clk
+                0x000000000002ac50       0x7c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002ac50                ccm_set_pll_ddr_clk
+
+.text.mctl_sys_init
+                0x000000000002accc       0xb4
+ .text.mctl_sys_init
+                0x000000000002accc       0xb4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002accc                mctl_sys_init
+
+.text.mctl_com_init
+                0x000000000002ad80      0x158
+ .text.mctl_com_init
+                0x000000000002ad80      0x158 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002ad80                mctl_com_init
+
+.text.mctl_phy_ac_remapping
+                0x000000000002aed8      0x318
+ .text.mctl_phy_ac_remapping
+                0x000000000002aed8      0x318 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002aed8                mctl_phy_ac_remapping
+
+.text.mctl_channel_init
+                0x000000000002b1f0      0x354
+ .text.mctl_channel_init
+                0x000000000002b1f0      0x354 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b1f0                mctl_channel_init
+
+.text.DRAMC_get_dram_size
+                0x000000000002b544       0x54
+ .text.DRAMC_get_dram_size
+                0x000000000002b544       0x54 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b544                DRAMC_get_dram_size
+
+.text.dqs_gate_detect
+                0x000000000002b598       0xa4
+ .text.dqs_gate_detect
+                0x000000000002b598       0xa4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b598                dqs_gate_detect
+
+.text.dramc_simple_wr_test
+                0x000000000002b63c       0x94
+ .text.dramc_simple_wr_test
+                0x000000000002b63c       0x94 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b63c                dramc_simple_wr_test
+
+.text.mctl_vrefzq_init
+                0x000000000002b6d0       0x30
+ .text.mctl_vrefzq_init
+                0x000000000002b6d0       0x30 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b6d0                mctl_vrefzq_init
+
+.text.mctl_core_init
+                0x000000000002b700       0x2a
+ .text.mctl_core_init
+                0x000000000002b700       0x2a /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b700                mctl_core_init
+
+.text.auto_scan_dram_size
+                0x000000000002b72c      0x284
+ .text.auto_scan_dram_size
+                0x000000000002b72c      0x284 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b72c                auto_scan_dram_size
+
+.text.auto_scan_dram_rank_width
+                0x000000000002b9b0       0x4c
+ .text.auto_scan_dram_rank_width
+                0x000000000002b9b0       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b9b0                auto_scan_dram_rank_width
+
+.text.auto_scan_dram_config
+                0x000000000002b9fc       0x4c
+ .text.auto_scan_dram_config
+                0x000000000002b9fc       0x4c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002b9fc                auto_scan_dram_config
+
+.text.init_DRAM
+                0x000000000002ba48      0x28c
+ .text.init_DRAM
+                0x000000000002ba48      0x28c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002ba48                init_DRAM
+
+.text.set_sys_voltage
+                0x000000000002bcd4       0x18
+ .text.set_sys_voltage
+                0x000000000002bcd4       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bcd4                set_sys_voltage
+
+.text.set_pll_voltage
+                0x000000000002bcec       0x18
+ .text.set_pll_voltage
+                0x000000000002bcec       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bcec                set_pll_voltage
+
+.text.axp_init  0x000000000002bd04       0x1c
+ .text.axp_init
+                0x000000000002bd04       0x1c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bd04                axp_init
+
+.text.get_power_mode
+                0x000000000002bd20        0xc
+ .text.get_power_mode
+                0x000000000002bd20        0xc /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bd20                get_power_mode
+
+.text.get_ctrl_info_from_tbl
+                0x000000000002bd2c       0x38
+ .text.get_ctrl_info_from_tbl
+                0x000000000002bd2c       0x38 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.pmu_set_vol
+                0x000000000002bd64      0x11e
+ .text.pmu_set_vol
+                0x000000000002bd64      0x11e /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.axp1530_set_ddr_voltage
+                0x000000000002be84       0xd8
+ .text.axp1530_set_ddr_voltage
+                0x000000000002be84       0xd8 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002be84                axp1530_set_ddr_voltage
+
+.text.axp1530_set_pll_voltage
+                0x000000000002bf5c       0x10
+ .text.axp1530_set_pll_voltage
+                0x000000000002bf5c       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bf5c                axp1530_set_pll_voltage
+
+.text.axp1530_set_sys_voltage
+                0x000000000002bf6c       0x10
+ .text.axp1530_set_sys_voltage
+                0x000000000002bf6c       0x10 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bf6c                axp1530_set_sys_voltage
+
+.text.axp1530_axp_init
+                0x000000000002bf7c       0xac
+ .text.axp1530_axp_init
+                0x000000000002bf7c       0xac /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002bf7c                axp1530_axp_init
+
+.text.sid_read_work_status
+                0x000000000002c028       0x14
+ .text.sid_read_work_status
+                0x000000000002c028       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002c028                sid_read_work_status
+
+.text.sid_read_key
+                0x000000000002c03c       0x68
+ .text.sid_read_key
+                0x000000000002c03c       0x68 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002c03c                sid_read_key
+
+.text.sid_program_key
+                0x000000000002c0a4       0x90
+ .text.sid_program_key
+                0x000000000002c0a4       0x90 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002c0a4                sid_program_key
+
+.iplt           0x000000000002c134        0x0
+ .iplt          0x000000000002c134        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+
+.text.note_dram_log
+                0x000000000002c134       0x44
+ .text.note_dram_log
+                0x000000000002c134       0x44 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+
+.text.startup.main
+                0x000000000002c178       0x80
+ .text.startup.main
+                0x000000000002c178       0x80 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+                0x000000000002c178                main
+                0x000000000002c200                . = ALIGN (0x10)
+
+.rodata         0x000000000002c200      0x3aa
+ *(.rodata)
+ .rodata        0x000000000002c200      0x3aa /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002c218                _ctype
+
+.rodata.str1.1  0x000000000002c5aa      0x979
+ .rodata.str1.1
+                0x000000000002c5aa      0x932 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                                        0x93c (size before relaxing)
+ .rodata.str1.1
+                0x000000000002cedc       0x47 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+
+.rel.dyn        0x000000000002cf24        0x0
+ .rel.iplt      0x000000000002cf24        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002cf30                . = ALIGN (0x10)
+
+.data           0x000000000002cf30      0x240
+ *(.data)
+ .data          0x000000000002cf30      0x240 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002cf34                i2c_gpio
+
+.igot.plt       0x000000000002d170        0x0
+ .igot.plt      0x000000000002d170        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002d170                . = ALIGN (0x4)
+
+.bss            0x000000000002d170       0x54
+                0x000000000002d170                __bss_start = .
+ *(.bss)
+ .bss           0x000000000002d170       0x54 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                0x000000000002d1a0                i2c_has_init
+                0x000000000002d1a4                twi_gpio
+                0x000000000002d1c4                . = ALIGN (0x4)
+                0x000000000002d1c4                __bss_end = .
+                0x000000000002d1c4                _end = .
+OUTPUT(fes1.elf elf32-littlearm)
+
+.comment        0x0000000000000000       0x91
+ .comment       0x0000000000000000       0x91 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+                                        0x56d (size before relaxing)
+ .comment       0x0000000000000091       0x2e /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .comment       0x0000000000000091       0x2e main/fes1_head.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 main/fes1_head.o
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x33 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/board/t113/libsun8iw20p1_fes.a
+ .ARM.attributes
+                0x0000000000000033       0x2d /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .ARM.attributes
+                0x0000000000000060       0x1f /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000000000007f       0x1f /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000009e       0x1f /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000000000000bd       0x31 main/fes1_head.o
+ .ARM.attributes
+                0x00000000000000ee       0x21 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+
+.debug_info     0x0000000000000000     0x15fc
+ .debug_info    0x0000000000000000      0xb7a /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .debug_info    0x0000000000000b7a      0x1cb /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_info    0x0000000000000d45      0x1cb /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_info    0x0000000000000f10      0x1cb /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_info    0x00000000000010db      0x4a5 main/fes1_head.o
+ .debug_info    0x0000000000001580       0x7c /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+
+.debug_abbrev   0x0000000000000000      0x2af
+ .debug_abbrev  0x0000000000000000      0x190 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .debug_abbrev  0x0000000000000190       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000000000001a4       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00000000000001b8       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_abbrev  0x00000000000001cc       0xcf main/fes1_head.o
+ .debug_abbrev  0x000000000000029b       0x14 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+
+.debug_loc      0x0000000000000000       0xa7
+ .debug_loc     0x0000000000000000       0xa7 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+
+.debug_aranges  0x0000000000000000       0xc0
+ .debug_aranges
+                0x0000000000000000       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .debug_aranges
+                0x0000000000000028       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000048       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x0000000000000068       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_aranges
+                0x0000000000000088       0x18 main/fes1_head.o
+ .debug_aranges
+                0x00000000000000a0       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+
+.debug_ranges   0x0000000000000000       0x18
+ .debug_ranges  0x0000000000000000       0x18 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+
+.debug_line     0x0000000000000000      0x627
+ .debug_line    0x0000000000000000      0x1f4 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .debug_line    0x00000000000001f4      0x108 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_line    0x00000000000002fc      0x119 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_line    0x0000000000000415       0xee /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_line    0x0000000000000503       0xd6 main/fes1_head.o
+ .debug_line    0x00000000000005d9       0x4e /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/fes1_entry.o
+
+.debug_str      0x0000000000000000      0x75e
+ .debug_str     0x0000000000000000      0x752 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+                                        0x83d (size before relaxing)
+ .debug_str     0x0000000000000752        0xc main/fes1_head.o
+                                        0x4e2 (size before relaxing)
+
+.debug_frame    0x0000000000000000       0xb8
+ .debug_frame   0x0000000000000000       0x50 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/fes/main/fes1_main.o
+ .debug_frame   0x0000000000000050       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000070       0x20 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000090       0x28 /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)

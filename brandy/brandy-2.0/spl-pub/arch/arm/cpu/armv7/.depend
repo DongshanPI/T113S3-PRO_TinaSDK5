@@ -1,0 +1,4 @@
+sboot_entry.o: sboot_entry.S \
+ /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/include/config.h \
+ /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/include/configs/sun8iw20p1.h \
+ /home/ubuntu/tina5sdk-bsp/brandy/brandy-2.0/spl-pub/include/asm/mode.h
