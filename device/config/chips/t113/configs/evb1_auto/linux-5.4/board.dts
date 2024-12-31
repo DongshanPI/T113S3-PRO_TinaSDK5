@@ -1095,14 +1095,13 @@ chn_cfg_mode     : Hardware DE channel allocation config. 0:single display with 
 	screen0_output_type      = <1>;
 	screen0_output_mode      = <4>;
 
-	screen1_output_type      = <3>;
-	screen1_output_mode      = <10>;
+	screen1_output_type      = <1>;
+	screen1_output_mode      = <4>;
 
 	screen1_output_format    = <0>;
 	screen1_output_bits      = <0>;
 	screen1_output_eotf      = <4>;
 	screen1_output_cs        = <257>;
-	screen1_output_dvi_hdmi  = <2>;
 	screen1_output_range     = <2>;
 	screen1_output_scan      = <0>;
 	screen1_output_aspect_ratio = <8>;
@@ -1118,7 +1117,6 @@ chn_cfg_mode     : Hardware DE channel allocation config. 0:single display with 
 	dev1_do_hpd              = <1>;
 
 	def_output_dev           = <0>;
-	hdmi_mode_check          = <1>;
 
 	fb0_format               = <0>;
 	fb0_width                = <0>;
@@ -1152,7 +1150,7 @@ chn_cfg_mode     : Hardware DE channel allocation config. 0:single display with 
 	dac_type0       = <0>;
 	dac_src0        = <0>;
 
-	status =  "disabled";
+	status =  "okay";
 };
 #endif
 
@@ -1215,45 +1213,45 @@ pull up or pull down(default 0), driver level(default 1), data>
 ;For lvds0: use lvds0_pins_a  and lvds0_pins_b instead
 ;----------------------------------------------------------------------------------*/
 &lcd0 {
-	/* part 1 */
-        lcd_used            = <1>;
-        lcd_driver_name     = "default_lcd";
-        lcd_backlight       = <100>;
-
-        /* part 2 */
-        lcd_if = <0>;
-        lcd_hv_if = <0>;
-
-        /* part 3 */
-        lcd_x               = <1024>;
-        lcd_y               = <600>;
-        lcd_width           = <154>;
-        lcd_height          = <85>;
-        lcd_dclk_freq       = <51>;
-
-        lcd_hbp             = <140>;
-        lcd_ht              = <1344>;
-        lcd_hspw            = <20>;
-        lcd_vbp             = <20>;
-        lcd_vt              = <635>;
-        lcd_vspw            = <3>;
 	
-        lcd_pwm_used        = <1>;
-        lcd_pwm_ch          = <7>;
-        lcd_pwm_freq        = <500>;
-        lcd_pwm_pol         = <1>;
+	/* part 1 */
+	lcd_used            = <1>;
+	lcd_driver_name     = "default_lcd";
+	lcd_backlight	    = <100>;
+	/* part 2 */
+	lcd_if = <0>;
+	lcd_hv_if = <0>;
+	/* part 3 */
+	lcd_x               = <1024>;
+	lcd_y               = <600>;
+	lcd_width           = <154>;
+	lcd_height          = <85>;
+	lcd_dclk_freq       = <51>;
+	lcd_hbp             = <140>;
+	lcd_ht              = <1344>;
+	lcd_hspw            = <20>;
+	lcd_vbp             = <20>;
+	lcd_vt              = <635>;
+	lcd_vspw            = <3>;
+		
+	lcd_pwm_used        = <1>;
+	lcd_pwm_ch          = <7>;
+	lcd_pwm_freq        = <500>;
+	lcd_pwm_pol         = <1>;
 
-        /* part 5 */
-        lcd_frm = <1>;
-        lcd_io_phase = <0x0000>;
-        lcd_gamma_en = <0>;
-        lcd_cmap_en = <0>;
-        lcd_hv_clk_phase = <0>;
-        lcd_hv_sync_polarity= <0>;
-
-        /* part 6 */
-        pinctrl-0 = <&rgb18_pins_a>;
-        pinctrl-1 = <&rgb18_pins_b>;
+	/* part 5 */
+	lcd_frm = <1>;
+	lcd_io_phase = <0x0000>;
+	lcd_gamma_en = <0>;
+	lcd_cmap_en = <0>;
+	lcd_hv_clk_phase = <0>;
+	lcd_hv_sync_polarity= <0>;
+				
+	/* part 6 */
+	lcd_power = "vcc-lcd";
+	lcd_pin_power = "vcc-pd";
+	pinctrl-0 = <&rgb18_pins_a>;
+	pinctrl-1 = <&rgb18_pins_b>;
 };
 
 /*
@@ -1317,154 +1315,193 @@ tvd_row*tvd_column is the total tvd channel number to be used in multichannel mo
 	fliter_used             = <1>;
 };
 
-/* Audio Driver modules */
+&i2s0_plat {
+	tdm-num		= <0>;
+	tx-pin		= <0>;
+	rx-pin		= <0>;
+	/*pinctrl-used;
+	pinctrl-names	= "default","sleep";
+	pinctrl-0	= <&i2s0_pins_a>;
+	pinctrl-1	= <&i2s0_pins_b>; */
+	tx-hub-en;
+	rx-sync-en;
+	status		= "disable";
+};
+
+&i2s0_mach {
+	soundcard-mach,format		= "i2s";
+	soundcard-mach,frame-master	= <&i2s0_cpu>;
+	soundcard-mach,bitclock-master	= <&i2s0_cpu>;
+	/* soundcard-mach,frame-inversion; */
+	/* soundcard-mach,bitclock-inversion; */
+	soundcard-mach,slot-num		= <2>;
+	soundcard-mach,slot-width	= <32>;
+	soundcard-mach,capture-only;
+	status		= "disabled";
+	i2s0_cpu: soundcard-mach,cpu {
+		sound-dai = <&i2s0_plat>;
+		soundcard-mach,pll-fs	= <1>;
+		soundcard-mach,mclk-fs	= <0>;
+	};
+	i2s0_codec: soundcard-mach,codec {
+	};
+};
+
+&i2s1_plat {
+	tdm-num		= <1>;
+	tx-pin		= <0>;
+	rx-pin		= <0>;
+	/* pinctrl-used; */
+	/* pinctrl-names= "default","sleep"; */
+	/* pinctrl-0	= <&i2s1_pins_a>; */
+	/* pinctrl-1	= <&i2s1_pins_b>; */
+	tx-hub-en;
+	rx-sync-en;
+	status		= "disabled";
+};
+
+&i2s1_mach {
+	soundcard-mach,format		= "i2s";
+	soundcard-mach,frame-master	= <&i2s1_cpu>;
+	soundcard-mach,bitclock-master	= <&i2s1_cpu>;
+	/* soundcard-mach,frame-inversion; */
+	/* soundcard-mach,bitclock-inversion; */
+	soundcard-mach,slot-num		= <2>;
+	soundcard-mach,slot-width	= <32>;
+	status		= "disabled";
+	i2s1_cpu: soundcard-mach,cpu {
+		sound-dai = <&i2s1_plat>;
+		soundcard-mach,pll-fs	= <1>;
+		soundcard-mach,mclk-fs	= <0>;
+	};
+	i2s1_codec: soundcard-mach,codec {
+	};
+};
+
+&i2s2_plat {
+	tdm-num		= <2>;
+	tx-pin		= <0 1 2 3>;
+	/* e.g.
+	* tx-pin0-map0 = <0xFEDC3210> -> tx_pin_map[0][0] (Dout0-slot[7:0]  map channel[15:12, 3:0])
+	* tx-pin0-map1 = <0x3210FEDC> -> tx_pin_map[0][1] (Dout0-slot[15:8] map channel[3:0, 15:12])
+	* tx-pin1-map0 = <0x76543210> -> tx_pin_map[1][0] (Dout1-slot[7:0]  map channel[7:0])
+	*/
+	tx-pin0-map0	= <0x76543210>;
+	tx-pin0-map1	= <0xFEDCBA98>;
+	tx-pin1-map0	= <0x76543210>;
+	tx-pin1-map1	= <0xFEDCBA98>;
+	tx-pin2-map0	= <0x76543210>;
+	tx-pin2-map1	= <0xFEDCBA98>;
+	tx-pin3-map0	= <0x76543210>;
+	tx-pin3-map1	= <0xFEDCBA98>;
+	rx-pin		= <0>;
+	/* pinctrl-used; */
+	/* pinctrl-names= "default","sleep"; */
+	/* pinctrl-0	= <&i2s2_pins_a>; */
+	/* pinctrl-1	= <&i2s2_pins_b>; */
+	tx-hub-en;
+	rx-sync-en;
+	/* edp not need dai-type */
+	status		= "disabled";
+};
+
+&i2s2_mach {
+	soundcard-mach,format		= "i2s";
+	soundcard-mach,frame-master	= <&i2s2_cpu>;
+	soundcard-mach,bitclock-master	= <&i2s2_cpu>;
+	/* soundcard-mach,frame-inversion; */
+	/* soundcard-mach,bitclock-inversion; */
+	soundcard-mach,slot-num		= <2>;
+	soundcard-mach,slot-width	= <32>;
+	soundcard-mach,playback-only;
+	status		= "disabled";
+	i2s2_cpu: soundcard-mach,cpu {
+		sound-dai = <&i2s2_plat>;
+		soundcard-mach,pll-fs	= <1>;
+		/* edp mclk: 512fs */
+		soundcard-mach,mclk-fs	= <0>;
+	};
+};
+
+
 &codec {
-	/* MIC and headphone gain setting */
-	mic1gain		= <0x1F>;
-	mic2gain		= <0x1F>;
-	mic3gain		= <0x1F>;
-	/* ADC/DAC DRC/HPF func enabled */
-	/* 0x1:DAP_HP_EN; 0x2:DAP_SPK_EN; 0x3:DAP_HPSPK_EN */
-	adcdrc_cfg		= <0x0>;
-	adchpf_cfg		= <0x1>;
-	dacdrc_cfg		= <0x0>;
-	dachpf_cfg		= <0x0>;
-	/* Volume about */
-	digital_vol	= <0x00>;
-	lineout_vol	= <0x1a>;
-	headphonegain	= <0x03>;
-	/* Pa enabled about */
-	pa_level		= <0x01>;
-	pa_pwr_level	= <0x01>;
-	pa_msleep_time	= <0x78>;
-	/* gpio-spk	= <&pio PE 11 GPIO_ACTIVE_LOW>; */
-	/* CMA config about */
-	playback_cma	= <128>;
-	capture_cma	= <256>;
-	/* regulator about */
-	/* avcc-supply	= <&reg_aldo1>; */
-	/* hpvcc-supply	= <&reg_eldo1>; */
+	/* avcc-external; */
+	/*tx-hub-en;
+	rx-sync-en; */
+	dac-vol		= <63>;		/* default value:63 range:0->63 */
+	dacl-vol	= <160>;	/* default value:160 range:0->255 */
+	dacr-vol	= <160>;	/* default value:160 range:0->255 */
+	adc1-vol	= <160>;	/* default value:160 range:0->255 */
+	adc2-vol	= <160>;	/* default value:160 range:0->255 */
+	adc3-vol	= <160>;	/* default value:160 range:0->255 */
+	lineout-vol	= <31>;		/* default value:31 range:0->31 */
+	adc1-gain	= <31>;		/* default value:31 range:0->31 */
+	adc2-gain	= <31>;		/* default value:31 range:0->31 */
+	adc3-gain	= <31>;		/* default value:31 range:0->31 */
+	hpout-gain	= <7>;		/* default value:7 range:0->7 */
+	fminl-gain	= <0>;		/* default value:0 range:0->1 */
+	fminr-gain	= <0>;		/* default value:0 range:0->1 */
+	lineinl-gain	= <0>;		/* default value:0 range:0->1 */
+	lineinr-gain	= <0>;		/* default value:0 range:0->1 */
+    pa-pin-max	= <1>;
+/*	pa-pin-0	= <&pio PE 11 GPIO_ACTIVE_HIGH>; */
+	pa-pin-level-0	= <1>;
+	pa-pin-msleep-0	= <0>;
+    status = "okay";
+};
+
+&codec_plat {
 	status = "okay";
 };
 
-&sndcodec {
-	hp_detect_case	= <0x00>;
-	jack_enable		= <0x01>;
+&codec_mach {
+	soundcard-mach,jack-support = <1>;
 	status = "okay";
+	soundcard-mach,cpu {
+		sound-dai = <&codec_plat>;
+	};
+	soundcard-mach,codec {
+		sound-dai = <&codec>;
+    };
 };
 
-&dummy_cpudai {
-	playback_cma	= <128>;
-	capture_cma		= <256>;
-	status			= "okay";
+&dmic_plat {
+	rx-chmap	= <0x76543210>;
+	data-vol	= <0xB0>;
+	rxdelaytime	= <0>;
+	/* pinctrl-used; */
+	/* pinctrl-names	= "default","sleep"; */
+	/* pinctrl-0	= <&dmic_pins_a>; */
+	/* pinctrl-1	= <&dmic_pins_b>; */
+	rx-sync-en;
+	status		= "disabled";
 };
 
-&dmic {
-	pinctrl-names   = "default","sleep";
-	pinctrl-0       = <&dmic_pins_a>;
-	pinctrl-1       = <&dmic_pins_b>;
-	status = "okay";
-};
-
-&dmic_codec {
-	status = "okay";
-};
-
-&sounddmic {
-	status = "okay";
-};
-
-/*-----------------------------------------------------------------------------
- * pcm_lrck_period	16/32/64/128/256
- * slot_width_select	16bits/20bits/24bits/32bits
- * frametype		0 --> short frame = 1 clock width;
- *			1 --> long frame = 2 clock width;
- * tdm_config		0 --> pcm
- *			1 --> i2s
- * mclk_div		0 --> not output
- *			1/2/4/6/8/12/16/24/32/48/64/96/128/176/192
- *			(set mclk as external codec clk source, freq is pll_audio/mclk_div)
- *			1 --> I2S/PCM use for external audio
- * daudio_type:		0 --> external audio type
- *---------------------------------------------------------------------------*/
-&daudio0 {
-	mclk_div	= <0x01>;
-	frametype	= <0x00>;
-	tdm_config	= <0x01>;
-	sign_extend	= <0x00>;
-	msb_lsb_first	= <0x00>;
-	pcm_lrck_period = <0x80>;
-	slot_width_select = <0x20>;
-	pinctrl-names   = "default", "sleep";
-	pinctrl-0       = <&daudio0_pins_a>;
-	pinctrl-1       = <&daudio0_pins_b>;
-	pinctrl_used	= <0x0>;
-	status = "disabled";
-};
-
-&sounddaudio0 {
-	status = "disabled";
-	daudio0_master: simple-audio-card,codec {
-		/* sound-dai = <&ac108>; */
+&dmic_mach {
+	status		= "disabled";
+	soundcard-mach,cpu {
+		sound-dai = <&dmic_plat>;
+	};
+	soundcard-mach,codec {
 	};
 };
 
-/*-----------------------------------------------------------------------------
- * simple-audio-card,name	name of sound card, e.g.
- *				"snddaudio0" --> use for external audio
- * sound-dai			"snd-soc-dummy" --> use for I2S
- *				"ac108" --> use for external audio of ac108
- *---------------------------------------------------------------------------*/
-&daudio1 {
-	mclk_div	= <0x01>;
-	frametype	= <0x00>;
-	tdm_config	= <0x01>;
-	sign_extend	= <0x00>;
-	msb_lsb_first	= <0x00>;
-	pcm_lrck_period = <0x80>;
-	slot_width_select = <0x20>;
-	pinctrl-names   = "default", "sleep";
-	pinctrl-0       = <&daudio1_pins_a &daudio1_pins_b &daudio1_pins_c>;
-	pinctrl-1       = <&daudio1_pins_d>;
-	pinctrl_used	= <0x1>;
-	status = "disabled";
+&owa_plat {
+	/* pinctrl-used; */
+	/* pinctrl-names	= "default","sleep"; */
+	/* pinctrl-0	= <&owa_pins_a>; */
+	/* pinctrl-1	= <&owa_pins_b>; */
+	tx-hub-en;
+	status		= "disabled";
 };
 
-&sounddaudio1 {
-	status = "disabled";
-	daudio1_master: simple-audio-card,codec {
-		/* sound-dai = <&ac108>; */
+&owa_mach {
+	status		= "disabled";
+	soundcard-mach,cpu {
+		sound-dai = <&owa_plat>;
 	};
-};
-
-&daudio2 {
-	mclk_div	= <0x01>;
-	frametype	= <0x00>;
-	tdm_config	= <0x01>;
-	sign_extend	= <0x00>;
-	msb_lsb_first	= <0x00>;
-	pcm_lrck_period = <0x80>;
-	slot_width_select = <0x20>;
-	pinctrl-names   = "default", "sleep";
-	pinctrl-0       = <&daudio2_pins_a &daudio2_pins_b &daudio2_pins_c>;
-	pinctrl-1       = <&daudio2_pins_d>;
-	pinctrl_used	= <0x1>;
-	status = "disabled";
-};
-
-&sounddaudio2 {
-	status = "disabled";
-	daudio2_master: simple-audio-card,codec {
-		/* sound-dai = <&ac108>; */
+	soundcard-mach,codec {
 	};
-};
-
-&spdif {
-	status = "okay";
-};
-
-&soundspdif {
-	status = "okay";
 };
 
 /*
